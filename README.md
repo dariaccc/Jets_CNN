@@ -8,14 +8,14 @@ The link to the dataset can be found here: https://zenodo.org/records/3164691/fi
 (_reference: P. T. Komiske, E. M. Metodiev, J. Thaler, Energy Flow Networks: Deep Sets for Particle Jets, JHEP 01 (2019) 121, arXiv:1810.05165._)
 
 ### Workflow
-![Visualisation of the workflow](figures/workflow-w-arrows.pdf)  
+![Visualisation of the workflow](figures/workflow.png)  
 
 ### Image showing the 2D histograms with labelling quark or gluon (with added colours through heatmap)
-![Quark and gluon images](figures/quark_gluons.pdf)  
+![Quark and gluon images](figures/quarks_gluons.png)  
 
 ### Visualisation of results
-![Confusion matrix](figures/CF_matrix.pdf)
-![ROC curve](figures/ROC.pdf)
-![Training vs validation curves](figures/train_vs_val.pdf)
+![Confusion matrix](figures/CF_matrix.png)
+![ROC curve](figures/ROC.png)
+![Training vs validation curves](figures/train_vs_val.png)
 
 A full report has been written on the topic including experimental settings, in-depth analysis of the results and future directions of the study. It can be found here: https://www.overleaf.com/read/mwbcwzqttqwd#37cc23
