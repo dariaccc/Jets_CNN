@@ -1,2 +1,9 @@
-# Jets_CNN
-Jet Binary Classification using a CNN (for Machine Learning and Smart Systems)
+# Exploring the use of regular and ResNet CNNs in Quark and Gluon Jet Classification
+
+## Introduction
+Jet classification plays a vital role in high-energy physics by helping distinguish between fundamental particles such as quarks and gluons in particle collision events. This study explores the potential of deep learning models—specifically, a custom Convolutional Neural Network (CNN) and a pre- trained ResNet50—in classifying quark and gluon jets using 2D histogram representations derived from Pythia8 simulations. The goal is to evaluate the performance of these models in a binary classification task using only visual features, without incorporating high-level physical attributes like jet substructures. The dataset consists of 40,000 samples (20,000 quark and 20,000 gluon jets), transformed into normalized 64×64 grayscale histograms. The CNN was carefully tuned for optimal architecture and regularization, while the ResNet50 was applied with matching parameters to allow fair comparison. Performance was evaluated using precision, recall, F1-score, and ROC-AUC metrics. Results showed that both models achieved moderate classification performance, with the CNN slightly outperforming ResNet50. The best CNN configuration reached an accuracy of 68.2% and an AUC of 0.74, surpassing random guessing but falling short of deployment-ready reliability. This work highlights both the potential and limitations of image-based jet classification using deep learning. It also emphasizes the importance of model architecture, preprocessing, and domain- specific features. The findings serve as a stepping stone for future research on integrating physics-aware features and advanced architectures for more robust particle identification.
+
+
+## Visualisation of results
+
+The full report can be found here: https://www.overleaf.com/read/mwbcwzqttqwd#37cc23
